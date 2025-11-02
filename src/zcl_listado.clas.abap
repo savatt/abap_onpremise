@@ -1,17 +1,18 @@
-CLASS zcl_listado DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_LISTADO definition
+  public
+  final
+  create public .
 
-  PUBLIC SECTION.
-    METHODS show_list .
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
+
+  methods SHOW_LIST .
 ENDCLASS.
 
 
 
-CLASS zcl_listado IMPLEMENTATION.
+CLASS ZCL_LISTADO IMPLEMENTATION.
 
 
   METHOD show_list.
